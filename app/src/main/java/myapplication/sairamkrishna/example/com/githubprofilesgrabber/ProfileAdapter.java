@@ -13,15 +13,13 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-/**
- * Created by pc hp on 28.11.2016.
- */
+
 public class ProfileAdapter extends BaseAdapter implements ListAdapter{
 
     private List<ProfileData> profiles;
     private Context context;
 
-    public ProfileAdapter(Context context,List<ProfileData> profiles) {
+    public ProfileAdapter(Context context, List<ProfileData> profiles) {
         this.profiles = profiles;
         this.context = context;
     }

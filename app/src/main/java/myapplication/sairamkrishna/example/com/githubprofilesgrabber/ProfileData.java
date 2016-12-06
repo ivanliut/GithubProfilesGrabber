@@ -3,9 +3,7 @@ package myapplication.sairamkrishna.example.com.githubprofilesgrabber;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created by pc hp on 28.11.2016.
- */
+
 public class ProfileData implements Parcelable{
 
     private String loginName;
@@ -15,7 +13,7 @@ public class ProfileData implements Parcelable{
 
 
 
-    public ProfileData(String loginName, String avatarSource,String htmlUrl)
+    public ProfileData(String loginName, String avatarSource, String htmlUrl)
     {
         this.loginName = loginName;
         this.avatarSource = avatarSource;
