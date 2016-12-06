@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GithubProfilesGrabber</string>
+    <string name="msgMalformedURLException">Problem with URL has occurred</string>
+    <string name="msgIOException">Problem with Network Connection has occurred</string>
+    <string name="msgDataIOException">Problem with Data has occurred</string>
+    <string name="msgJSONException">Could not fetch data</string>
+    <string name="AlertDialogTitle">Error has occured...</string>
+    <string name="Alert_Dialogue_Quit_Label">QUIT</string>
+</resources>
